@@ -1,0 +1,15 @@
+.todo{
+background-image: url(https://media.discordapp.net/attachments/1095598613960335370/1166975285195976744/Frame_3.png?ex=654c716d&is=6539fc6d&hm=f62db5475e9ef2589b904bc2aa8b45b12fc84bc2a6de7618c3c7f4c554a4ac2a&=&width=160&height=676);
+width: 100vw; 
+height: 100vh;
+}
+
+.header1{
+    background-color:aquamarine ;
+
+}
+
+.header2{
+ margin-left: 70%;
+
+}
