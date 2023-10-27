@@ -1,0 +1,91 @@
+* {
+    font-family: 'Epilogue', sans-serif;
+}
+
+body {
+    background: #4ecca4;
+}
+
+h1 {
+    position: absolute;
+    margin:auto;
+    bottom: 350px;
+    right: 0;
+    left: 840px;
+    top: 0;
+    color: white;
+}
+
+li {
+    top :0;
+    position: relative;
+    display: inline-block;
+    padding: 30px;
+    padding-top: 30px;
+    margin:auto;
+
+}
+
+.menu {
+    color: white;
+    background: black;
+}
+
+.chats {
+    color: white;
+    background: black;
+}
+
+.mi_cuenta {
+    color: white;
+    background: black;
+}
+
+.pagina_principal {
+    color: white;
+    background: black;
+}
+
+.input {
+    color: white;
+    background: black;
+    padding: 29px;
+    padding-bottom: 28px;
+}
+
+.img {
+    position: absolute;
+    margin:auto;
+    bottom: 350px;
+    right: 0;
+    left: 0;
+    top: 20px;
+}
+
+div {
+    position: absolute;
+    margin:auto;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    top: 500px;
+}
+
+.abajo {
+    position: absolute;
+    margin:auto;
+    bottom: 0px;
+    right: 0;
+    left: 60px;
+    top: 50;
+}
+
+
+.abajo2 {
+    position: absolute;
+    margin:auto;
+    bottom: 0px;
+    right: 0;
+    left: 925px;
+    top: 90;
+}
