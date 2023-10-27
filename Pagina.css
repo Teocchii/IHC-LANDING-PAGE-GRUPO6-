@@ -62,14 +62,7 @@ li {
     top: 20px;
 }
 
-div {
-    position: absolute;
-    margin:auto;
-    bottom: 0px;
-    right: 0;
-    left: 0;
-    top: 500px;
-}
+
 
 .abajo {
     position: absolute;
@@ -141,10 +134,13 @@ div {
     justify-content: space-between;
 }
 .startupname{
-    
-    display: flex;
-    justify-content: left;
-    align-items:center;
- }
+   
+   position: relative;
+   top: 70%;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+ 
+}
  @media only screen and (max-width:767) {
  }
