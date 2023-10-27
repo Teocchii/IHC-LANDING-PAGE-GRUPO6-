@@ -89,3 +89,58 @@ div {
     left: 925px;
     top: 90;
 }
+.header{
+    background: black;
+    color: white;
+    position:average;
+    left: 0;
+    top:0;
+    right: 0;
+    
+}
+.header a{
+    color:aliceblue;
+    text-decoration: none;
+}
+.divnav{
+    
+    position: inherit;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.navigation ul{
+    margin: 10;
+    list-style: none;
+
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    padding: 0.5 1 rem;
+    transition: all 0.4s linear;
+    border: radius 5px;
+
+}
+
+.navigation ul li a{
+    display: block;
+    padding:0.5rem 1 rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+     }
+
+.navigation ul li a:hover {
+    background:palegreen;
+}
+.startupname{
+position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ @media only screen and (max-width:767) {
+ }
