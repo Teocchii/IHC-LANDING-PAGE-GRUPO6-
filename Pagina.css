@@ -134,13 +134,17 @@ div {
      }
 
 .navigation ul li a:hover {
-    background:palegreen;
+    background:black ;
+}
+.body{
+    position: inherit;
+    justify-content: space-between;
 }
 .startupname{
-position: relative;
+    
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: left;
+    align-items:center;
  }
  @media only screen and (max-width:767) {
  }
