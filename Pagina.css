@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #4ecca4;
+    background: #76D7B8;
 }
 
 h1 {
@@ -48,28 +48,21 @@ li {
 
 .input {
     color: white;
-    background: black;
+  
     padding: 29px;
     padding-bottom: 28px;
 }
 
 .img {
-    position: absolute;
+    background: #34B38A;
+    position: relative;
     margin:auto;
     bottom: 350px;
-    right: 0;
-    left: 0;
+    right:80%;
     top: 20px;
 }
 
-div {
-    position: absolute;
-    margin:auto;
-    bottom: 0px;
-    right: 0;
-    left: 0;
-    top: 500px;
-}
+
 
 .abajo {
     position: absolute;
@@ -89,3 +82,66 @@ div {
     left: 925px;
     top: 90;
 }
+.header{
+
+    background: black;
+    color: white;
+    position:absolute;
+    left: 0;
+    top:-35%;
+    right: 0;
+    
+}
+.header a{
+    color:#ffff;
+    text-decoration: none;
+}
+.divnav{
+    
+    position: inherit;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.navigation ul{
+    margin: 10;
+    list-style: none;
+
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    padding: 0.5 1 rem;
+    transition: all 0.4s linear;
+    border: radius 5px;
+
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 0.5rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+     }
+
+.navigation ul li a:hover {
+    background:black ;
+}
+.body{
+    position: inherit;
+    justify-content: space-between;
+}
+.startupname{
+   
+   position: relative;
+   top: 70%;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+ 
+}
+ @media only screen and (max-width:767) {
+ }
