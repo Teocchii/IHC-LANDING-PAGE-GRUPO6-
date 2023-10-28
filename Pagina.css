@@ -3,34 +3,48 @@
 }
 
 body {
-    background: #76D7B8;
+    position: absolute;
+    background-image:url("https://media.discordapp.net/attachments/1095598613960335370/1167661267578793984/Frame_3.png?ex=654ef04c&is=653c7b4c&hm=701390797406e678ab4d3d15c1e9014012dda8d048a8c854e770fd6d8a8212d1&=&width=160&height=676") ;
+    filter: opacity(4px);
+    background-size:100%;
+    background-repeat: no-repeat;
 }
 
 h1 {
-    position: absolute;
-    margin:auto;
+    font-size: 60px;
+    background:#34B38A;
+    margin:30px;
     bottom: 350px;
-    right: 0;
     left: 840px;
-    top: 0;
     color: white;
+    border-radius: 5px;
 }
 
 li {
+    font-size: 30px;
     top :0;
     position: relative;
     display: inline-block;
     padding: 30px;
     padding-top: 30px;
     margin:auto;
+    color: whitesmoke;
 
 }
+p{
+    font-size: 20;
+    line-height: normal;
+    display: inline-block;
+    line-height: 20px;
 
-.menu {
+   
+}
+a{
     color: white;
-    background: black;
 }
 
+
+/*
 .chats {
     color: white;
     background: black;
@@ -52,16 +66,7 @@ li {
     padding: 29px;
     padding-bottom: 28px;
 }
-
-.img {
-    background: #34B38A;
-    position: relative;
-    margin:auto;
-    bottom: 350px;
-    right:80%;
-    top: 20px;
-}
-
+/
 
 
 .abajo {
@@ -82,66 +87,95 @@ li {
     left: 925px;
     top: 90;
 }
-.header{
+*/
 
-    background: black;
-    color: white;
-    position:absolute;
-    left: 0;
-    top:-35%;
-    right: 0;
-    
+.header{
+    position:relative;
 }
 .header a{
-    color:#ffff;
     text-decoration: none;
 }
-.divnav{
-    
-    position: inherit;
-    display: flex;
-    justify-content: right;
-    align-items: center;
+.img{
+  position: relative;
+  width: 10%;
+  height: 60%;
+
+
+}
+.navigation {
+    background-color: #34B38A;
+    border-radius: 10px;
+    display:flex ;
+    align-items:top; ;
+    flex-direction: row-reverse;   
+    bottom: 20%;
+    right: 90%;
 }
 
 
 .navigation ul{
     margin: 10;
+    padding: 10px;
     list-style: none;
 
-}
+} 
+/*Esta linea de abajo está algo obsoleta en el codigo*/ 
+
 .navigation ul li{
     display: inline-block;
 }
 .navigation ul li a{
-    padding: 0.5 1 rem;
+    padding: 2 2 rem;
     transition: all 0.4s linear;
-    border: radius 5px;
+    border: radius 100px;
 
 }
-
-.navigation ul li a{
-    display: block;
-    padding: 0.5rem 0.5rem;
-    transition: all 0.4s linear;
-    border-radius: 5px;
-     }
 
 .navigation ul li a:hover {
-    background:black ;
+    background:#505762 ;
 }
+
 .body{
     position: inherit;
-    justify-content: space-between;
-}
-.startupname{
-   
-   position: relative;
-   top: 70%;
-   display: flex;
-   justify-content: center;
-   align-items:center;
  
 }
- @media only screen and (max-width:767) {
- }
+.startupname{
+    text-align: center;
+    padding: 10px 10%;
+    position: relative;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.abajo{
+    text-size-adjust: 20px;
+}
+
+.features{
+    text-align: center;
+    padding: 10px 10%;
+    position: relative;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin: 90 px;
+}
+
+.subs{
+
+    right:50%
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.ft{
+ 
+    background-color: #34B38A;
+    height:max-content ;
+}
+.aft{
+    font-size: 30px;
+    margin-right: 5%;
+    margin-left: 10%;
+}
