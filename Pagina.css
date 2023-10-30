@@ -8,6 +8,7 @@ body {
     filter: opacity(4px);
     background-size:100%;
     background-repeat: no-repeat;
+    
 }
 
 h1 {
@@ -139,10 +140,7 @@ a{
     background:#505762 ;
 }
 
-.body{
-    position: inherit;
- 
-}
+
 .startupname{
     text-align: center;
     padding: 10px 10%;
@@ -151,24 +149,38 @@ a{
     align-items:center;
     flex-direction: column;
 }
-.abajo{
-    text-size-adjust: 20px;
-}
 
+.rowft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hfts{
+ text-align: center;
+ border-radius: 10px;
+}
+.minidivft{
+    margin-right: 40px;
+    margin-left: 40px;
+}
 .features{
     text-align: center;
     padding: 10px 10%;
     position: relative;
-    display: flex;
+    display:flex;
+    flex-direction: row;
     align-items:center;
-    flex-direction: column;
+
     margin: 90 px;
+  
 }
 .abtus{
-    display:flex; 
+    
+    display: grid;
+    margin-right: 10%;
     align-items: center;
     margin: 10px;
-    padding: 10px 20%;
+    padding: 10px 30%;
 
 }
 .carta{
@@ -180,6 +192,11 @@ a{
     display: flex;
     padding: 10px 20%;
 
+}
+.appstores{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .subs{
     margin-left: 10%;
@@ -209,4 +226,8 @@ a{
     font-size: 30px;
     margin-right: 5%;
     margin-left: 10%;
+}
+
+.bgimg{
+ background-image: url(Imagenes/Logo\ png.png);   
 }
