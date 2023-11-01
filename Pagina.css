@@ -64,7 +64,7 @@ a{
 }
 .navigation {
     height:fit-content;
-    background-color:red;
+    background-color: #34B38A;
     border-radius: 10px;
     display:flex;
     align-items:top; 
