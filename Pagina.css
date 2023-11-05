@@ -9,6 +9,14 @@ body {
     background-repeat: no-repeat;
     
 }
+.abajo {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    opacity: 1;
+    transition-duration: 350ms;
+    text-size-adjust: 20px;
+    margin-top: 80px;
+}
 
 h1 {
     font-size: 60px;
@@ -108,10 +116,8 @@ a{
     margin-bottom: 5%;
     
 }
-.abajo{
-    text-size-adjust: 20px;
-    margin-top: 80px;
-}
+
+
 
 .rowft{
     display: flex;
@@ -123,8 +129,8 @@ a{
  border-radius: 10px;
 }
 .minidivft{
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
     margin:50px
     
 }
@@ -229,7 +235,104 @@ a{
 
 .aft{
     font-size: 30px;
-    margin-right: 5%;
+    margin-right: 20%;
     margin-left: 10%;
 }
 
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0;
+}
+.abtus_posicion {
+    float: left;
+    margin-right: 2px;
+}
+
+#seccionAboutUs {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    gap: 20px;
+}
+
+#seccionAboutUs img {
+    float: left;
+    margin-right: 50px;
+    margin-left: 90px;
+}
+
+#seccionAboutUs .text {
+    margin: 5;
+    text-align: justify;
+    font-family: "Ubuntu";
+    font-size: 25px; 
+    line-height: 1; 
+    margin-bottom: 20px; 
+    font-weight: initial;
+    padding-right: 150px
+
+}
+
+
+.footer {
+    background-color: #34B38A;
+}
+
+.footer__contact {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin-top: 3rem;
+}
+
+.footer__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color);
+}
+
+.footer__item:nth-of-type(1) {
+    --color: #1da1f2;
+}
+
+.footer__item:nth-of-type(2) {
+    --color: #c32aa3;
+}
+
+.footer__item:nth-of-type(3) {
+    --color: #ff0000;
+}
+
+.footer__img {
+    width: 28px;
+}
+
+
+.titulo {
+    font-family: "Ubuntu";
+    text-align: justify;
+    font-size: 40px; 
+    line-height: 1; 
+    font-weight: 700;
+    padding-left: 330px;
+
+}
+
+.linea {
+    background-color: #34B38A;
+    border-top: 4px solid rgb(255, 255, 255);
+    height: 4px;
+    max-width: 1000000px;
+    padding: 0;
+    margin: 0px auto 0 auto;
+  }
