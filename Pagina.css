@@ -336,3 +336,30 @@ a{
     padding: 0;
     margin: 0px auto 0 auto;
   }
+
+
+
+#retorno{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.videos{
+    display: flex;
+    flex-direction: row;
+}
+.abtteam{
+
+    display: flex;
+    flex-direction: column;
+    margin-right:10%;
+    margin-left:10%;
+}
+
+.ABOUTUS{
+    display: flex;
+    flex-direction: column;
+    margin-right:10%;
+    margin-left:10%;
+}
