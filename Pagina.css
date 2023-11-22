@@ -340,20 +340,25 @@ a{
 
 
 #retorno{
-    display: flex;
-    text-align: center;
-    align-items: center;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    margin-right: 20%;
+    justify-content: center;
+     text-align: center;
+
+
 }
 
-.videos{
+.videos1{
     display: flex;
     flex-direction: row;
+
 }
 .abtteam{
 
     display: flex;
     flex-direction: column;
-    margin-right:10%;
+    margin-right:5%;
     margin-left:10%;
 }
 
@@ -362,4 +367,35 @@ a{
     flex-direction: column;
     margin-right:10%;
     margin-left:10%;
+    justify-content: center;
+    text-align: center;
+}
+.abtprd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+  
+}
+.vd1{
+    display: flex;
+    flex-direction: column;
+    margin-right:10%;
+    margin-left:10%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.vd2{
+    display: flex;
+    flex-direction: column;
+    margin-right:10%;
+    margin-left:10%;
+    justify-content: center;
+    text-align: center;
 }
